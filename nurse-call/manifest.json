@@ -1,0 +1,50 @@
+{
+    "short_name": "Nurse Call",
+    "name": "Nurse Call: i'm sad!",
+    "icons": [
+      {
+        "src": "/images/icons-192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/images/icons-512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": "/?source=pwa",
+    "background_color": "#3367D6",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#3367D6",
+    "shortcuts": [
+      {
+        "name": "Why do people die?",
+        "short_name": "die",
+        "description": "View text about death",
+        "url": "/today?source=pwa",
+        "icons": [{ "src": "/images/death.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "How's happiness?",
+        "short_name": "happy",
+        "description": "See how you can be happy",
+        "url": "/tomorrow?source=pwa",
+        "icons": [{ "src": "/images/happy.png", "sizes": "192x192" }]
+      }
+    ],
+    "description": "TRE information",
+    "screenshots": [
+      {
+        "src": "/images/screenshot1.png",
+        "type": "image/png",
+        "sizes": "540x720"
+      },
+      {
+        "src": "/images/screenshot2.jpg",
+        "type": "image/jpg",
+        "sizes": "540x720"
+      }
+    ]
+  }
